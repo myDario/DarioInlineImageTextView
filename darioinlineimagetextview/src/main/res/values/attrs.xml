@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DarioInlineImageTextView">
+        <attr name="inlineImgResourceId" format="integer"/>
+        <attr name="inlineImgIndexInText" format="integer"/>
+        <attr name="inlineImageVerticalAlign" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="baseline" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
