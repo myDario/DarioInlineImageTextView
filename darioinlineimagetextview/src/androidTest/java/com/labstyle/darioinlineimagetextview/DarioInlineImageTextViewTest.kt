@@ -25,4 +25,18 @@ class DarioInlineImageTextViewTest {
         textView.setInlineImage(imgResId = 0, atIndex = 1)
         assertEquals("hello", textView.text)
     }
+
+    @Test
+    fun setInlineImage_emptyText() {
+        textView.text = ""
+        textView.setInlineImage(imgResId = 123, atIndex = 0)
+        assertEquals("", textView.text)
+    }
+
+    @Test
+    fun setInlineImage_nullText() {
+        textView.text = null
+        textView.setInlineImage(imgResId = 123, atIndex = 0)
+        assertEquals("", textView.text)
+    }
 }
