@@ -16,7 +16,7 @@ allprojects {
 
 app `build.gradle` file:
 ```gradle
-implementation 'com.github.myDario:DarioInlineImageTextView:1.0.0'
+implementation 'com.github.myDario:DarioInlineImageTextView:1.0.1'
 ```
 
 ## Usage
